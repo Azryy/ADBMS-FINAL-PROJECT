@@ -5,7 +5,7 @@ import { StoreContext } from '../../context/StoreContext'
 const CakeItem = ({ id, name, price, description, image }) => {
 
  
-  const {cartItems,addToCart,removeFromCart} = useContext(StoreContext);
+  const {cartItems,addToCart,removeFromCart,url} = useContext(StoreContext);
   return (
     <div className='cake-item'>
       <div className="cake-item-image-container">
@@ -18,7 +18,7 @@ const CakeItem = ({ id, name, price, description, image }) => {
             </div>
 
           }
-        <img className='cake-item-image' src={image} alt="" />
+        <img className='cake-item-image' src={url+"/images/"+image} alt="" />
 
       </div>
       <div className="cake-item-info">

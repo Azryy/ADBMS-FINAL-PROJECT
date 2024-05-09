@@ -1,5 +1,5 @@
 import basket_icon from './basket_icon.png'
-import logo from './kapalaran-logo.png'
+import logo from './logo_final.png'
 import header_img from './kapalaran-header.png'
 import search_icon from './search_icon.png'
 import dessert_1 from './cake-icon.jpg'

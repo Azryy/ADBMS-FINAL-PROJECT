@@ -7,7 +7,8 @@ const Footer = () => {
       <div className="footer-content">
         <div className="footer-content-left">
           <img src={assets.logo} alt="" />
-          <p>Ito ay Kapalaran Bakery pag bumili kayo makukuha nyo si madi. Magdagdag lang kayo ng 20 pesos sa mga bibilhin at kakantahan kayo ni Andrew Nery</p>
+          <p>
+Kapalaran Bakery is more than just a bakery—it's a haven for cake lovers seeking exceptional quality and delightful flavors. Nestled in the heart of Las Piñas, Kapalaran Bakery has become renowned for its commitment to crafting cakes that not only taste heavenly but also leave a lasting impression.</p>
           <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
             <img src={assets.twitter_icon} alt="" />
@@ -27,7 +28,7 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>09667462937</li>
-            <li>madizon@gmail.com</li>
+            <li>kapalaranbakery@gmail.com</li>
           </ul>
         </div>
 
